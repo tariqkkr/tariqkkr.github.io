@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Spot Light Template</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--
+Name     : Almas Mahmood-ul-Hassan
+Course 	 : BSCS
+Session  : 2013-2016
+Semester : 4th
+Project	 : Social Website Template
+-->
+    <link rel="stylesheet" href="css/layout.css" type="text/css" />
+	<link rel="stylesheet" href="css/mailbox.css" type="text/css" />
+	<style style="text/css">
+  	.hoverTable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.hoverTable th{ 
+		padding:7px; border:#4e95f4 1px solid;
+		background: #dfe3ee;
+	}	
+	.hoverTable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* Define the default color for all the table rows */
+	.hoverTable tr{
+		background: #ffffff;
+	}
+	/* Define the hover highlight color for the table row */
+    .hoverTable tr:hover {
+          background-color: #ffff99;
+    }
+</style>
+</head>
+<body id="home">
+<script src="scripts/messageMain.js"></script>
+<script src="scripts/jquery.js"></script>
+<script src="resource/inboxMessages.js"></script>
+<script src="resource/sentMessages.js"></script>
+
+
+	<div id="container">
+		<div id="topMenu"> 
+		</div>
+			
+		<div id="leftMenuMail">
+			<div id="mailbox">
+				<header>
+					<h3>Mailbox</h3>
+				</header>
+				<ul>
+					<li class="clearfix">
+						<span class="entypo-inbox"></span>
+						<a id ="myInbox" href="#">Inbox</a>
+						<span class="count">3</span>
+					</li>
+
+					<li class="clearfix">
+						<span class="entypo-star"></span>
+						<a href="#">Favorites</a>
+						<span class="count">4</span>
+					</li>
+
+					<li class="clearfix">
+						<span class="entypo-paper-plane"></span>
+						<a id="mySentItems" href="#">Sent</a>
+						<span class="count">2</span>
+					</li>
+
+					<li class="clearfix">
+						<span class="entypo-flag"></span>
+						<a href="#">Flagged</a>
+						<span class="count">1</span>
+					</li>
+
+					<li class="clearfix">
+						<span class="entypo-trash"></span>
+						<a href="#">Deleted</a>
+						<span class="count">42</span>
+					</li>
+				</ul>
+				<footer>
+					<p><a href="#">More</a><span class="entypo-down-open"></span></p>
+				</footer>
+			</div> <!-- end mailbox -->
+		</div>	<!-- leftMenu -->
+		
+		<div id="middleContentMail"> 
+			<header id="messageHeader"></header>
+			<table class="hoverTable" id="messageTable"></table>
+		</div> <!-- middleContent -->
+
+		<div id="rightMenu"> 
+		</div>	
+		
+		<div id="footer"><p>Copyright © 2008 </p></div>
+	</div>  
+</body>
+</html>
