@@ -1,0 +1,160 @@
+/*
+Name     : Almas Mahmood-ul-Hassan
+Course 	 : BSCS
+Session  : 2013-2016
+Semester : 4th
+Project	 : Social Website Template
+*/
+
+html, body {  margin:0px 80px; padding:0px; border: 0px; background-color:#f7f7f7;} 
+
+#container { width: 100%; margin: 0 0 0 0px; /* top right bottom left */ padding: 0; background-color: #fff; } 
+#container h1 { margin: 0; padding: 0; width: 100%; height: 150px; float: left; border-bottom: #c00 solid 3px; } 
+
+#container #topMenu			{ height:40px; width: 100%;	float: left; background-color:#3b5998;} 
+#container #leftMenu 		{ width: 10%;	float: left; margin: 0; padding: 0;} 
+#container #middleContent 	{ width: 70%;	height:800px; float: left; margin: 0; padding: 0; overflow:scroll;} 
+#container #rightMenu 		{ width: 20%;	float: right; margin: 0; padding: 0;} 
+#container #footer 			{ height:40px; width: 100%;	float: left;  border-top: #c00 solid 3px; background-color:#3b5998;}
+
+/* Login Layout*/
+#container #middleContentLogin 	{ width: 100%;	height:800px; float: left; margin: 0; padding: 0; } 
+
+/* Mailbox Layout*/
+#container #leftMenuMail 		{ width: 20%;	float: left; } 
+#container #middleContentMail 	{ width: 60%;	height:800px; float: left;  padding: 0; overflow:scroll;} 
+#container #middleSearchFriend 	{ width: 70%;	height:800px; float: left;  padding: 0; overflow:scroll;} 
+
+#col2outer #col2mid { width: 300px; float: left; } 
+#col2outer #col2side { width: 300px; float: right; } 
+
+/*CURVED CORNERS*/
+dl.curved {background:#8b9dc3 url(images/c_tl.gif) top left no-repeat; margin:15px 0; padding:0; width:100%;}
+dl.curved dt {background:transparent url(images/c_tr.gif) top right no-repeat; padding:10px; text-align:center; font-weight: bold; color:#fff;}
+dl.curved dd {background:#ffffff url(images/c_bl.gif) bottom left no-repeat; padding:0; margin:0;}
+dl.curved dd p {margin:0; padding:10px; line-height:1.53em;}
+dl.curved dd p.last {background:transparent url(images/c_br.gif) bottom right no-repeat; }
+/*LINK PROPERTIES*/
+			
+#container #topMenu #loginDivRight {
+  float: right;
+  text-align: right;
+  display: inline;
+  margin: 10px 10px 0px 0px;
+}			
+
+#container #topMenu #loginDivLeft {
+  float: left;
+  text-align: left;
+  display: inline;
+  margin: 0px 0px 20px 20px;
+}	
+
+#container #middleContent#postDiv{ width: 100%;}
+#container #middleContent#postDiv#postDivImage 	{ margin: 0px 0px; padding: 0px; float: left; display: inline; }	
+#container #middleContent#postDiv#postDivName 	{ margin: 0px 0px; padding: 0px;float: right; }	
+#container #middleContent#postDiv#postDivComments{ margin: 0px 0px; padding: 0px;float: right;}	
+#container #middleContent#postDiv#nestedDiv{ margin: 20px 20px; width: 80%; }
+#nestedDiv{ margin: 0px 50px; }
+div.postDivHeader	{background:#8b9dc3 url(images/c_tl.gif) top left no-repeat; height:30px; margin:0; padding:0; width:100%; text-align:center; font-weight: bold; color:#fff;}	
+.comment-text {
+   font-family: tims, cursive, serif;
+   font-style: normal;
+   line-height: 20px;
+   font-size: 14px; 
+   /*font-weight: bold; */
+   /*font-style: italic; */
+   /*background: #ffffcc; */
+   /*color: green; */
+}
+.comment-link-text{
+   font-family: tims, cursive, serif;
+   font-style: normal;
+   line-height: 20px;
+   font-size: 10px; 
+   font-weight: bold;
+   /*font-style: italic; */
+   /*background: #ffffcc; */
+   /*color: green; */
+}
+#menu-text{
+   font-family: tims, cursive, serif;
+   font-style: normal;
+   line-height: 20px;
+   font-size: 12px; 
+   font-weight: bold;
+   /*font-style: italic; */
+   /*background: #ffffcc; */
+   color: white; 
+}
+
+#commenent-table  {
+   border-collapse: collapse;
+     margin:0;padding:0
+}
+
+#container #topMenu #loginDivLeft #iconDiv{
+  margin :30 30;
+  text-align: right;
+  display: inline;
+  margin: 0px 0px 20px 20px;
+}
+
+#container #topMenu #loginDivLeft #iconDiv #topImage{
+	  width : 20px;
+	  float: left;
+	  text-align: left;
+	  display: inline;
+	
+}
+
+/*Left Menu Settings for UL*/
+nav ul {
+	float: left;
+	list-style-position: inside;
+    padding-left:0;
+}
+nav ul li {
+	float: left;
+	list-style-type: none;
+}
+	nav ul li:hover {
+		background: #dfe3ee;
+		background: linear-gradient(top, #dfe3ee 0%, #3b5998 40%);
+		background: -moz-linear-gradient(top, #dfe3ee 0%, #3b5998 40%);
+		background: -webkit-linear-gradient(top, #dfe3ee 0%,#3b5998 40%);
+	}
+		nav ul li:hover a {
+		/*font color*/
+			color: #ffffff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 5px 10px;
+		color: #757575; text-decoration: none;
+	}
+
+#middleSearchFriend header{
+	background-color: #8b9dc3;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #ecf0f1;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}	
+
+#messageHeader{
+	margin-bottom : 20px;
+	background-color: #8b9dc3;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #ecf0f1;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}

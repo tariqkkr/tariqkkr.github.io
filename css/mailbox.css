@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.count {
+	background-color: #3090bd;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	color: #ecf0f1;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px;
+	min-width: 12px;
+	margin-top: 8px;
+	padding: 0 6px;
+	text-align: center;
+}
+
+#mailbox {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 5px auto;
+	width: 300px;
+}
+
+#mailbox header {
+	background-color: #8b9dc3;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #ecf0f1;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#middleContentMail header{
+	background-color: #8b9dc3;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #ecf0f1;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#mailbox ul {
+	background-color: #ecf0f1;
+}
+
+#mailbox ul li {
+	border-bottom: 1px solid #a6a8a9;
+	color: #776b6c;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 24px;
+}
+
+#mailbox ul li:hover {
+	background-color: #56a3c7;
+	color: #ecf0f1;
+}
+
+#mailbox ul li:hover a {
+	color: #ecf0f1;
+}
+
+#mailbox ul li span[class*="entypo"] {
+	display: inline-block;
+	padding-right: 18px;
+	width: 16px;
+}
+
+#mailbox ul li a {
+	color: #3e4146;
+}
+
+#mailbox ul li span[class*="count"] {
+	float: right;
+}
+
+#mailbox footer {
+	background-color: #ecf0f1;
+	color: #3e4146;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 24px;
+}
+
+#mailbox footer a {
+	color: #3e4146;
+}
+
+#mailbox footer span[class*="entypo"] {
+	padding-left: 8px;
+}
